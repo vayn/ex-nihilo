@@ -1,5 +1,5 @@
 # Ex nihilo
-Show battery time remaining on macOS 10.12
+Show battery time remaining and other on macOS 10.12.2
 
 [Download](https://github.com/Vayn/ex-nihilo/blob/master/ExNihilo_1.0.dmg?raw=true)
 
