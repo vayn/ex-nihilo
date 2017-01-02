@@ -16,5 +16,5 @@ Show battery time remaining and others on macOS 10.12.2
 - 1.0 First release
 
 [1]: https://github.com/Vayn/ex-nihilo/releases/download/1.5.1/ExNihilo.dmg
-[2]: https://github.com/Vayn/ex-nihilo/blob/master/Screenshot.png?raw=true
+[2]: https://github.com/Vayn/ex-nihilo/blob/master/release/Screenshot.png?raw=true
 
