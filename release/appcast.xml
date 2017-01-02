@@ -14,9 +14,9 @@
          <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.5.1/ExNihilo.zip"
              sparkle:version="7"
              sparkle:shortVersionString="1.5.1"
-             length="3463556"
+             length="3464755"
              type="application/octet-stream"
-             sparkle:dsaSignature="MC0CFCTm0HkeMINxdv6wNuE0pwmkzNAiAhUAnRWuL7NZTE3C4aW3E2zGu+TVzLU="
+             sparkle:dsaSignature="MC0CFErurVIzs50sIlMt8E9+AoF39/lQAhUAp4wYiFV2y2Xa7SE4cDAGTYE3ME8="
          />
       </item>
    </channel>
