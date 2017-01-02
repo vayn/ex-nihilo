@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <channel>
       <title>Ex nihilo's Changelog</title>
-      <link>https://raw.githubusercontent.com/Vayn/ex-nihilo/master/release/appcast.xml</link>
+      <link>https://vayn.github.io/ex-nihilo/master/release/appcast.xml</link>
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
       <item>
          <title>Version 1.5.1 (1 bug fix)</title>
          <sparkle:releaseNotesLink>
-             https://raw.githubusercontent.com/Vayn/ex-nihilo/master/release/changelog/1.5.1.html
+             http://ex-nihilo.vayn.de/release/changelog/1.5.1.html
          </sparkle:releaseNotesLink>
          <pubDate>Mon, 2 Jan 2017 13:18:00 +0000</pubDate>
          <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.5.1/ExNihilo.zip"
-             sparkle:version="5"
+             sparkle:version="7"
              sparkle:shortVersionString="1.5.1"
              length="3463556"
              type="application/octet-stream"
              sparkle:dsaSignature="MC0CFCTm0HkeMINxdv6wNuE0pwmkzNAiAhUAnRWuL7NZTE3C4aW3E2zGu+TVzLU="
+         />
       </item>
    </channel>
 </rss>
