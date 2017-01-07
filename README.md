@@ -23,5 +23,5 @@ brew cask install exnihilo
 - 1.0 First release
 
 [1]: https://github.com/Vayn/ex-nihilo/blob/master/release/Screenshot.png?raw=true
-[2]: https://github.com/Vayn/ex-nihilo/releases/download/1.5.1/ExNihilo.dmg
+[2]: https://github.com/Vayn/ex-nihilo/releases/latest
 [3]: https://github.com/caskroom/homebrew-cask
