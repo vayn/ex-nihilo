@@ -7,6 +7,7 @@ Show battery time remaining and others on macOS 10.12.2
 
 ## Changelog
 
+- 1.5.2 Fix mismatched color of title
 - 1.5.1 Fix StatusItem title in dark mode
 - 1.5 Ergonomic battery capacity indicator
 - 1.4 Auto-update and colorful status of battery icon

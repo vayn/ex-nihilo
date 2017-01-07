@@ -6,6 +6,20 @@
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
       <item>
+         <title>Version 1.5.2 (1 bug fix)</title>
+         <sparkle:releaseNotesLink>
+             https://vayn.github.io/ex-nihilo/release/changelog/1.5.2.html
+         </sparkle:releaseNotesLink>
+         <pubDate>Sat, 7 Jan 2017 20:30:00 +0000</pubDate>
+         <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.5.2/ExNihilo.zip"
+             sparkle:version="8"
+             sparkle:shortVersionString="1.5.2"
+             length="3460087"
+             type="application/octet-stream"
+             sparkle:dsaSignature="MC0CFGJIqFw1ukdRFXhmxC3++PFWOxIRAhUAkR4auhpQBdwqcOEnhLKnmmDFWJM="
+         />
+      </item>
+      <item>
          <title>Version 1.5.1 (1 bug fix)</title>
          <sparkle:releaseNotesLink>
              https://vayn.github.io/ex-nihilo/release/changelog/1.5.1.html
