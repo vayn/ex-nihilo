@@ -13,8 +13,7 @@ brew cask install exnihilo
 
 ## Changelog
 
-- 1.5.2 Fix mismatched color of title
-- 1.5.1 Fix StatusItem title in dark mode
+- 1.6 Add system uptime
 - 1.5 Ergonomic battery capacity indicator
 - 1.4 Auto-update and colorful status of battery icon
 - 1.3 Add capacity icon and temperature
