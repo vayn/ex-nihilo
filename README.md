@@ -13,6 +13,7 @@ brew cask install exnihilo
 
 ## Changelog
 
+- 1.7 Show GPU name
 - 1.6 Add system uptime
 - 1.5 Ergonomic battery capacity indicator
 - 1.4 Auto-update and colorful status of battery icon
