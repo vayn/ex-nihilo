@@ -4,7 +4,8 @@
       <title>Ex nihilo's Changelog</title>
       <link>https://vayn.github.io/ex-nihilo/release/appcast.xml</link>
       <description>Most recent changes with links to updates.</description>
-      <<item>
+      <language>en</language>
+      <item>
          <title>Version 1.7.0 (1 new feature)</title>
          <sparkle:releaseNotesLink>
              https://vayn.github.io/ex-nihilo/release/changelog/1.7.0.html
@@ -17,7 +18,7 @@
              type="application/octet-stream"
              sparkle:dsaSignature="MC0CFAYtZgMaUWscraAJE8t1aJaA0X83AhUAwBKpSscTNYUrkpX5ZXm+AxTyM/I="
          />
-      </item>language>en</language>
+      </item>
       <item>
          <title>Version 1.6.0 (1 new feature)</title>
          <sparkle:releaseNotesLink>
