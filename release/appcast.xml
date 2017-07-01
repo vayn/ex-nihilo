@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <channel>
-      <title>Ex nihilo's changelog.html
+      <title>Change of Ex nihilo</title>
       <link>https://vayn.github.io/ex-nihilo/release/appcast.xml</link>
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
