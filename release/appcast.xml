@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <channel>
-      <title>Ex nihilo's Changelog</title>
+      <title>Ex nihilo's changelog.html
       <link>https://vayn.github.io/ex-nihilo/release/appcast.xml</link>
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
       <item>
+         <title>Version 1.7.1 (1 new feature)</title>
+         <sparkle:releaseNotesLink>
+             https://vayn.github.io/ex-nihilo/release/changelog.html
+         </sparkle:releaseNotesLink>
+         <pubDate>Sat, 1 July 2017 13:44:00 +0800</pubDate>
+         <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.7.1/ExNihilo.zip"
+             sparkle:version="12"
+             sparkle:shortVersionString="1.7.1"
+             length="6037503"
+             type="application/octet-stream"
+             sparkle:dsaSignature="MC0CFFgh3d3M1qI/w84flRkrjd8GvkaCAhUAtZzFzSJcVDAhwjyVxnggH1X+Vtw="
+         />
+      </item>
+      <item>
          <title>Version 1.7.0 (1 new feature)</title>
          <sparkle:releaseNotesLink>
-             https://vayn.github.io/ex-nihilo/release/changelog/1.7.0.html
+             https://vayn.github.io/ex-nihilo/release/changelog.html
          </sparkle:releaseNotesLink>
          <pubDate>Fri, 30 June 2017 03:47:00 +0800</pubDate>
          <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.7.0/ExNihilo.zip"
@@ -22,7 +36,7 @@
       <item>
          <title>Version 1.6.0 (1 new feature)</title>
          <sparkle:releaseNotesLink>
-             https://vayn.github.io/ex-nihilo/release/changelog/1.6.0.html
+             https://vayn.github.io/ex-nihilo/release/changelog.html
          </sparkle:releaseNotesLink>
          <pubDate>Sun, 8 Jan 2017 02:20:00 +0000</pubDate>
          <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.6.0/ExNihilo.zip"
@@ -36,7 +50,7 @@
       <item>
          <title>Version 1.5.2 (1 bug fix)</title>
          <sparkle:releaseNotesLink>
-             https://vayn.github.io/ex-nihilo/release/changelog/1.5.2.html
+             https://vayn.github.io/ex-nihilo/release/changelog.html
          </sparkle:releaseNotesLink>
          <pubDate>Sat, 7 Jan 2017 20:30:00 +0000</pubDate>
          <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.5.2/ExNihilo.zip"
@@ -50,7 +64,7 @@
       <item>
          <title>Version 1.5.1 (1 bug fix)</title>
          <sparkle:releaseNotesLink>
-             https://vayn.github.io/ex-nihilo/release/changelog/1.5.1.html
+             https://vayn.github.io/ex-nihilo/release/changelog.html
          </sparkle:releaseNotesLink>
          <pubDate>Mon, 2 Jan 2017 13:18:00 +0000</pubDate>
          <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.5.1/ExNihilo.zip"

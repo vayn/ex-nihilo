@@ -1,5 +1,6 @@
 # Ex nihilo
-Show battery time remaining and others on macOS 10.12.2
+
+Show battery status on and above macOS 10.12
 
 ![Screenshot][1]
 
@@ -13,14 +14,42 @@ brew cask install exnihilo
 
 ## Changelog
 
-- 1.7 Show GPU name
-- 1.6 Add system uptime
-- 1.5 Ergonomic battery capacity indicator
-- 1.4 Auto-update and colorful status of battery icon
-- 1.3 Add capacity icon and temperature
-- 1.2 Use more elegant way to get cycle count of battery
-- 1.1 Add more information about battery
-- 1.0 First release
+<dl>
+  <dt>v1.7.1</dt>
+  <dd>Display the type of GPU (integrated or discrete)</dd>
+</dl>
+<dl>
+  <dt>v1.7.0</dt>
+  <dd>Show GPU name</dd>
+</dl>
+<dl>
+  <dt>v1.6.0</dt>
+  <dd>Add system uptime</dd>
+</dl>
+<dl>
+  <dt>v1.5.0</dt>
+  <dd>Show capacity on system menubar</dd>
+</dl>
+<dl>
+  <dt>v1.4.0</dt>
+  <dd>Make the icon animated and colorful to show battery status</dd>
+</dl>
+<dl>
+  <dt>v1.3.0</dt>
+  <dd>Add icon of battery capacity and temperature tag</dd>
+</dl>
+<dl>
+  <dt>v1.2.0</dt>
+  <dd>Show cycle count of battery in an elegant way</dd>
+</dl>
+<dl>
+  <dt>v1.1.0</dt>
+  <dd>Add more Information about battery</dd>
+</dl>
+<dl>
+  <dt>v1.0.0</dt>
+  <dd>First release</dd>
+</dl>
 
 [1]: https://github.com/Vayn/ex-nihilo/blob/master/release/Screenshot.png?raw=true
 [2]: https://github.com/Vayn/ex-nihilo/releases/latest
