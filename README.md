@@ -16,7 +16,7 @@ brew cask install exnihilo
 
 <dl>
   <dt>v1.7.8</dt>
-  <dd>refactor the indicator of battery power</dd>
+  <dd>Refactor the indicator of battery power</dd>
 </dl>
 <dl>
   <dt>v1.7.1</dt>
