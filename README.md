@@ -15,6 +15,10 @@ brew cask install exnihilo
 ## Changelog
 
 <dl>
+  <dt>v1.7.8</dt>
+  <dd>refactor the indicator of battery power</dd>
+</dl>
+<dl>
   <dt>v1.7.1</dt>
   <dd>Display the type of GPU (integrated or discrete)</dd>
 </dl>
