@@ -15,7 +15,11 @@ brew cask install exnihilo
 ## Changelog
 
 <dl>
-  <dt>v1.7.8</dt>
+  <dt>v1.7.3</dt>
+  <dd>Hotfix power indicator</dd>
+</dl>
+<dl>
+  <dt>v1.7.2</dt>
   <dd>Refactor the indicator of battery power</dd>
 </dl>
 <dl>
