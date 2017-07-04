@@ -15,6 +15,10 @@ brew cask install exnihilo
 ## Changelog
 
 <dl>
+  <dt>v1.7.4</dt>
+  <dd>Hotfix power indicator animation</dd>
+</dl>
+<dl>
   <dt>v1.7.3</dt>
   <dd>Hotfix power indicator</dd>
 </dl>
