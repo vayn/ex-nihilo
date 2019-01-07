@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>Change of Ex nihilo</title>
+      <link>https://vayn.github.io/ex-nihilo/release/appcast.xml</link>
+      <description>Most recent changes with links to updates.</description>
+      <language>en</language>
+      <item>
+         <title>Version 1.7.4 (1 bug fix)</title>
+         <sparkle:releaseNotesLink>
+             https://vayn.github.io/ex-nihilo/release/changelog.html
+         </sparkle:releaseNotesLink>
+         <pubDate>Tue, 4 July 2017 22:10:00 +0800</pubDate>
+         <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.7.4/ExNihilo.zip"
+             sparkle:version="15"
+             sparkle:shortVersionString="1.7.4"
+             length="3561482"
+             type="application/octet-stream"
+             sparkle:dsaSignature="MC0CFHGoUZGlR1VvY8wT4JFYc3GxvFNPAhUAnAfhNrGJ/EqNgv6fQvL8sUaZem8="
+         />
+     </item>
+      <item>
+         <title>Version 1.7.3 (1 bug fix)</title>
+         <sparkle:releaseNotesLink>
+             https://vayn.github.io/ex-nihilo/release/changelog.html
+         </sparkle:releaseNotesLink>
+         <pubDate>Sun, 2 July 2017 12:53:00 +0800</pubDate>
+         <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.7.3/ExNihilo.zip"
+             sparkle:version="14"
+             sparkle:shortVersionString="1.7.3"
+             length="3560141"
+             type="application/octet-stream"
+             sparkle:dsaSignature="MCwCFClkE3ox7mF+v1spllHjS01Cd0rtAhQYdNODwnUd8zgmRbem4v4FT5ED5A=="
+         />
+     </item>
+      <item>
+         <title>Version 1.7.2 (1 new feature)</title>
+         <sparkle:releaseNotesLink>
+             https://vayn.github.io/ex-nihilo/release/changelog.html
+         </sparkle:releaseNotesLink>
+         <pubDate>Sun, 2 July 2017 12:16:00 +0800</pubDate>
+         <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.7.2/ExNihilo.zip"
+             sparkle:version="13"
+             sparkle:shortVersionString="1.7.2"
+             length="3560145"
+             type="application/octet-stream"
+             sparkle:dsaSignature="MCwCFDSicvexssHGGwvJCkWD79LH6z8vAhQcVrw54zjeccp6CFiy0Crjhu85Uw=="
+         />
+     </item>
+     <item>
+         <title>Version 1.7.1 (1 new feature)</title>
+         <sparkle:releaseNotesLink>
+             https://vayn.github.io/ex-nihilo/release/changelog.html
+         </sparkle:releaseNotesLink>
+         <pubDate>Sat, 1 July 2017 13:44:00 +0800</pubDate>
+         <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.7.1/ExNihilo.zip"
+             sparkle:version="12"
+             sparkle:shortVersionString="1.7.1"
+             length="6037503"
+             type="application/octet-stream"
+             sparkle:dsaSignature="MC0CFFgh3d3M1qI/w84flRkrjd8GvkaCAhUAtZzFzSJcVDAhwjyVxnggH1X+Vtw="
+         />
+      </item>
+      <item>
+         <title>Version 1.7.0 (1 new feature)</title>
+         <sparkle:releaseNotesLink>
+             https://vayn.github.io/ex-nihilo/release/changelog.html
+         </sparkle:releaseNotesLink>
+         <pubDate>Fri, 30 June 2017 03:47:00 +0800</pubDate>
+         <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.7.0/ExNihilo.zip"
+             sparkle:version="11"
+             sparkle:shortVersionString="1.7.0"
+             length="3539388"
+             type="application/octet-stream"
+             sparkle:dsaSignature="MC0CFAYtZgMaUWscraAJE8t1aJaA0X83AhUAwBKpSscTNYUrkpX5ZXm+AxTyM/I="
+         />
+      </item>
+      <item>
+         <title>Version 1.6.0 (1 new feature)</title>
+         <sparkle:releaseNotesLink>
+             https://vayn.github.io/ex-nihilo/release/changelog.html
+         </sparkle:releaseNotesLink>
+         <pubDate>Sun, 8 Jan 2017 02:20:00 +0000</pubDate>
+         <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.6.0/ExNihilo.zip"
+             sparkle:version="9"
+             sparkle:shortVersionString="1.6.0"
+             length="3463514"
+             type="application/octet-stream"
+             sparkle:dsaSignature="MC4CFQC27YCFicKUe0i04aW3z7xMQR55xwIVAMDKc5uvifoxhL6r0s8INjQ37erI"
+         />
+      </item>
+      <item>
+         <title>Version 1.5.2 (1 bug fix)</title>
+         <sparkle:releaseNotesLink>
+             https://vayn.github.io/ex-nihilo/release/changelog.html
+         </sparkle:releaseNotesLink>
+         <pubDate>Sat, 7 Jan 2017 20:30:00 +0000</pubDate>
+         <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.5.2/ExNihilo.zip"
+             sparkle:version="8"
+             sparkle:shortVersionString="1.5.2"
+             length="3460087"
+             type="application/octet-stream"
+             sparkle:dsaSignature="MC0CFGJIqFw1ukdRFXhmxC3++PFWOxIRAhUAkR4auhpQBdwqcOEnhLKnmmDFWJM="
+         />
+      </item>
+      <item>
+         <title>Version 1.5.1 (1 bug fix)</title>
+         <sparkle:releaseNotesLink>
+             https://vayn.github.io/ex-nihilo/release/changelog.html
+         </sparkle:releaseNotesLink>
+         <pubDate>Mon, 2 Jan 2017 13:18:00 +0000</pubDate>
+         <enclosure url="https://github.com/Vayn/ex-nihilo/releases/download/1.5.1/ExNihilo.zip"
+             sparkle:version="7"
+             sparkle:shortVersionString="1.5.1"
+             length="3464755"
+             type="application/octet-stream"
+             sparkle:dsaSignature="MC0CFErurVIzs50sIlMt8E9+AoF39/lQAhUAp4wYiFV2y2Xa7SE4cDAGTYE3ME8="
+         />
+      </item>
+   </channel>
+</rss>

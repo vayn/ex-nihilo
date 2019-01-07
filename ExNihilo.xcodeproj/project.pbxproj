@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BD6D73A5274DCC899A7DBB6 /* Pods_ExNihilo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD420A825486E6C513E2877 /* Pods_ExNihilo.framework */; };
+		F30D74BC1E02E9E30039164D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30D74BB1E02E9E30039164D /* AppDelegate.swift */; };
+		F30D74BE1E02E9E30039164D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30D74BD1E02E9E30039164D /* Assets.xcassets */; };
+		F30D74C11E02E9E30039164D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F30D74BF1E02E9E30039164D /* MainMenu.xib */; };
+		F3103BDA1E04589700BAF598 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3103BD91E04589700BAF598 /* AppDelegate.m */; };
+		F3103BDD1E04589700BAF598 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3103BDC1E04589700BAF598 /* main.m */; };
+		F3103BDF1E04589700BAF598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3103BDE1E04589700BAF598 /* Assets.xcassets */; };
+		F3103BE21E04589700BAF598 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3103BE01E04589700BAF598 /* MainMenu.xib */; };
+		F3103BE81E0459C500BAF598 /* ExNihiloHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = F3103BD61E04589700BAF598 /* ExNihiloHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F32842151E030A5600F652A8 /* BatteryInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32842141E030A5600F652A8 /* BatteryInfoView.swift */; };
+		F3A34D0F1E2154E600E93663 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A34D0E1E2154E600E93663 /* Utils.swift */; };
+		F3B613941F077DE300C46611 /* powerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B613931F077DE300C46611 /* powerLayer.swift */; };
+		F3CC6F0C1E118E450077BA70 /* BatteryIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC6F0B1E118E450077BA70 /* BatteryIconView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3103BE71E04594000BAF598 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				F3103BE81E0459C500BAF598 /* ExNihiloHelper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		878E729F2B00A70EBF60D484 /* Pods-ExNihilo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExNihilo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExNihilo/Pods-ExNihilo.release.xcconfig"; sourceTree = "<group>"; };
+		9CD420A825486E6C513E2877 /* Pods_ExNihilo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExNihilo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D106927FBA8AF6F38F73B16C /* Pods-ExNihilo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExNihilo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExNihilo/Pods-ExNihilo.debug.xcconfig"; sourceTree = "<group>"; };
+		F30D74B81E02E9E30039164D /* ExNihilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExNihilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30D74BB1E02E9E30039164D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F30D74BD1E02E9E30039164D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F30D74C01E02E9E30039164D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F3103BD61E04589700BAF598 /* ExNihiloHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExNihiloHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3103BD81E04589700BAF598 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3103BD91E04589700BAF598 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3103BDC1E04589700BAF598 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3103BDE1E04589700BAF598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3103BE11E04589700BAF598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F3103BE31E04589700BAF598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32842141E030A5600F652A8 /* BatteryInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryInfoView.swift; sourceTree = "<group>"; };
+		F32842161E031D5300F652A8 /* ExNihilo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExNihilo-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3A34D0E1E2154E600E93663 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F3B613931F077DE300C46611 /* powerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = powerLayer.swift; sourceTree = "<group>"; };
+		F3CC6F0B1E118E450077BA70 /* BatteryIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryIconView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30D74B51E02E9E30039164D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD6D73A5274DCC899A7DBB6 /* Pods_ExNihilo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3103BD31E04589700BAF598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10689651422548EBED83B06B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D106927FBA8AF6F38F73B16C /* Pods-ExNihilo.debug.xcconfig */,
+				878E729F2B00A70EBF60D484 /* Pods-ExNihilo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D76EF92980D95945B75E7AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CD420A825486E6C513E2877 /* Pods_ExNihilo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F30D74AF1E02E9E30039164D = {
+			isa = PBXGroup;
+			children = (
+				F30D74BA1E02E9E30039164D /* ExNihilo */,
+				F3103BD71E04589700BAF598 /* ExNihiloHelper */,
+				F30D74B91E02E9E30039164D /* Products */,
+				10689651422548EBED83B06B /* Pods */,
+				9D76EF92980D95945B75E7AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F30D74B91E02E9E30039164D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30D74B81E02E9E30039164D /* ExNihilo.app */,
+				F3103BD61E04589700BAF598 /* ExNihiloHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F30D74BA1E02E9E30039164D /* ExNihilo */ = {
+			isa = PBXGroup;
+			children = (
+				F30D74BB1E02E9E30039164D /* AppDelegate.swift */,
+				F32842141E030A5600F652A8 /* BatteryInfoView.swift */,
+				F3CC6F0B1E118E450077BA70 /* BatteryIconView.swift */,
+				F3B613931F077DE300C46611 /* powerLayer.swift */,
+				F3A34D0E1E2154E600E93663 /* Utils.swift */,
+				F30D74BD1E02E9E30039164D /* Assets.xcassets */,
+				F30D74BF1E02E9E30039164D /* MainMenu.xib */,
+				F32842161E031D5300F652A8 /* ExNihilo-Bridging-Header.h */,
+			);
+			path = ExNihilo;
+			sourceTree = "<group>";
+		};
+		F3103BD71E04589700BAF598 /* ExNihiloHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F3103BD81E04589700BAF598 /* AppDelegate.h */,
+				F3103BD91E04589700BAF598 /* AppDelegate.m */,
+				F3103BDE1E04589700BAF598 /* Assets.xcassets */,
+				F3103BE01E04589700BAF598 /* MainMenu.xib */,
+				F3103BE31E04589700BAF598 /* Info.plist */,
+				F3103BDB1E04589700BAF598 /* Supporting Files */,
+			);
+			path = ExNihiloHelper;
+			sourceTree = "<group>";
+		};
+		F3103BDB1E04589700BAF598 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3103BDC1E04589700BAF598 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30D74B71E02E9E30039164D /* ExNihilo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30D74C51E02E9E30039164D /* Build configuration list for PBXNativeTarget "ExNihilo" */;
+			buildPhases = (
+				84CBF6A7A95668EDBF8F73FE /* [CP] Check Pods Manifest.lock */,
+				F30D74B41E02E9E30039164D /* Sources */,
+				F30D74B51E02E9E30039164D /* Frameworks */,
+				F30D74B61E02E9E30039164D /* Resources */,
+				F3103BE71E04594000BAF598 /* CopyFiles */,
+				333CAFF56C92F2CEDD5C74E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExNihilo;
+			productName = ExNihilo;
+			productReference = F30D74B81E02E9E30039164D /* ExNihilo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3103BD51E04589700BAF598 /* ExNihiloHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3103BE61E04589700BAF598 /* Build configuration list for PBXNativeTarget "ExNihiloHelper" */;
+			buildPhases = (
+				F3103BD21E04589700BAF598 /* Sources */,
+				F3103BD31E04589700BAF598 /* Frameworks */,
+				F3103BD41E04589700BAF598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExNihiloHelper;
+			productName = ExNihiloHelper;
+			productReference = F3103BD61E04589700BAF598 /* ExNihiloHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F30D74B01E02E9E30039164D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = SoloInc;
+				TargetAttributes = {
+					F30D74B71E02E9E30039164D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R2AGE4X8K6;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+					F3103BD51E04589700BAF598 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R2AGE4X8K6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F30D74B31E02E9E30039164D /* Build configuration list for PBXProject "ExNihilo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F30D74AF1E02E9E30039164D;
+			productRefGroup = F30D74B91E02E9E30039164D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30D74B71E02E9E30039164D /* ExNihilo */,
+				F3103BD51E04589700BAF598 /* ExNihiloHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30D74B61E02E9E30039164D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30D74BE1E02E9E30039164D /* Assets.xcassets in Resources */,
+				F30D74C11E02E9E30039164D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3103BD41E04589700BAF598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3103BDF1E04589700BAF598 /* Assets.xcassets in Resources */,
+				F3103BE21E04589700BAF598 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		333CAFF56C92F2CEDD5C74E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExNihilo/Pods-ExNihilo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DynamicColor/DynamicColor.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicColor.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExNihilo/Pods-ExNihilo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84CBF6A7A95668EDBF8F73FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExNihilo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30D74B41E02E9E30039164D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CC6F0C1E118E450077BA70 /* BatteryIconView.swift in Sources */,
+				F32842151E030A5600F652A8 /* BatteryInfoView.swift in Sources */,
+				F30D74BC1E02E9E30039164D /* AppDelegate.swift in Sources */,
+				F3A34D0F1E2154E600E93663 /* Utils.swift in Sources */,
+				F3B613941F077DE300C46611 /* powerLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3103BD21E04589700BAF598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3103BDD1E04589700BAF598 /* main.m in Sources */,
+				F3103BDA1E04589700BAF598 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F30D74BF1E02E9E30039164D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30D74C01E02E9E30039164D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F3103BE01E04589700BAF598 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3103BE11E04589700BAF598 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F30D74C31E02E9E30039164D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F30D74C41E02E9E30039164D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		F30D74C61E02E9E30039164D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D106927FBA8AF6F38F73B16C /* Pods-ExNihilo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R2AGE4X8K6;
+				INFOPLIST_FILE = ExNihilo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vayn.ex.nihilo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExNihilo/ExNihilo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		F30D74C71E02E9E30039164D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878E729F2B00A70EBF60D484 /* Pods-ExNihilo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R2AGE4X8K6;
+				INFOPLIST_FILE = ExNihilo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vayn.ex.nihilo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExNihilo/ExNihilo-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		F3103BE41E04589700BAF598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R2AGE4X8K6;
+				INFOPLIST_FILE = ExNihiloHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vayn.ex.nihilo.helper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F3103BE51E04589700BAF598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R2AGE4X8K6;
+				INFOPLIST_FILE = ExNihiloHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vayn.ex.nihilo.helper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F30D74B31E02E9E30039164D /* Build configuration list for PBXProject "ExNihilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30D74C31E02E9E30039164D /* Debug */,
+				F30D74C41E02E9E30039164D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30D74C51E02E9E30039164D /* Build configuration list for PBXNativeTarget "ExNihilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30D74C61E02E9E30039164D /* Debug */,
+				F30D74C71E02E9E30039164D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3103BE61E04589700BAF598 /* Build configuration list for PBXNativeTarget "ExNihiloHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3103BE41E04589700BAF598 /* Debug */,
+				F3103BE51E04589700BAF598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F30D74B01E02E9E30039164D /* Project object */;
+}
